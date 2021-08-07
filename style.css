@@ -1,0 +1,140 @@
+/* Général */
+
+body{
+    margin :0;
+    padding: 0;
+    height:100vh;
+    background:#f1f1f1;
+}
+/* Nav */
+.navbar-brand{
+    font-size: 25px;
+    font-family: 'kaushan Script';
+   /* margin-left:8vw;*/
+}
+/*.navbar-collapse{
+    margin-right: 8vw;
+}*/
+.navbar-collapse a{
+    font-size: 18px;
+}
+/* Header */
+
+header{
+    background: url('./img/headerImg.jpg');
+    background-size:cover;
+    height: 80vh;
+}
+
+.text-intro{
+    padding-top: 12.625vw;
+    padding-bottom: 8vw;
+}
+.preTxt{
+    font-size: 25px ;
+}
+h1{
+    font-size: 3.7vw;
+    color:#fff;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+/* info */
+
+h3{
+    font-size: 25px
+}
+.txtLabtop{
+    font-size: 15px;
+}
+
+#info{
+    padding:5vw 0!important;
+}
+/* Trois icones */
+
+#home-icons{
+    padding:2.5vw 0 1vw;
+    border-top:1px solid #000;
+}
+
+/* call to action */
+
+#start{
+    position: relative;
+    min-height:200px;
+    background: url('./img/start.jpeg') center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:#fff;
+}
+
+#start h2{
+    font-size: 20px;
+    color:#f1f1f1;
+}
+
+/* Clients */
+#clients{
+    padding-bottom: 75px;
+}
+#clients img{
+    margin-top: -3rem;
+}
+.card h3{
+    font-size: 25px;
+}
+.fab{
+    font-size: 25px;
+    color:#003366;
+}
+.card{
+    margin-bottom: 4rem;
+}
+
+
+/* Média queries */
+
+@media screen and (max-width:768px){
+  
+    header{
+        height:60vh;
+    }
+    .text-intro{
+        padding-top: 200px;
+    }
+    .preTxt{
+        font-size: 30px;
+    }
+    h1{
+font-size: 60px;
+    }
+   
+    .preTxt{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 39px;
+    }
+    .text-intro a{
+        transform: scale(0.8);
+    }
+    #home-icons{
+        padding: 80px 0 60px;
+    }
+
+    #txtLabtop{
+        padding-bottom: 30px;
+    }
+
+    #clients{
+        padding-bottom:0;
+    }
+
+
+}
+
+
+
